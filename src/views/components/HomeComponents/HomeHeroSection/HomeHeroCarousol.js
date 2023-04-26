@@ -6,7 +6,7 @@ import './HomeHeroCarousol.css';
 
 const HomeHeroCarousol = () => {
     return (
-        <div className='col-10 my-5 mx-auto animate_bottom'>
+        <div className=' mt-md-5 mx-auto animate_bottom'>
             <div id="carouselExampleCaptions" className="carousel slide carousel-dark" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -45,7 +45,6 @@ const HomeHeroCarousol = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-
         </div>
     );
 };

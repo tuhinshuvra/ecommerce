@@ -4,7 +4,6 @@ import HomeHeroCarousol from '../../components/HomeComponents/HomeHeroSection/Ho
 import HomeSpecialitySection from '../../components/HomeComponents/HomeSpecialitySection/HomeSpecialitySection';
 import HomeJewlerySection from '../../components/HomeComponents/HomeJewlerySection/HomeJewlerySection';
 import HomeServiceSection from '../../components/HomeComponents/HomeServiceSection/HomeServiceSection';
-import HomeAboutSection from '../../components/HomeComponents/HomeAboutSection/HomeAboutSection';
 import HomeContactSection from '../../components/HomeComponents/HomeContactSection/HomeContactSection';
 import HomeOfferSection from '../../components/HomeComponents/HomeOfferSection/HomeOfferSection';
 
@@ -16,7 +15,6 @@ const Home = () => {
             <HomeJewlerySection></HomeJewlerySection>
             <HomeOfferSection></HomeOfferSection>
             <HomeServiceSection></HomeServiceSection>
-            <HomeAboutSection></HomeAboutSection>
             <HomeContactSection></HomeContactSection>
 
         </div>
