@@ -1,0 +1,14 @@
+.navBottomMenu {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.shopLogo {
+    width: 160px;
+    margin-top: -20px;
+}
+
+.shopCart {
+    width: 20px;
+    height: 20px;
+}
