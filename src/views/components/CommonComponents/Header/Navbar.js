@@ -11,12 +11,6 @@ const Navbar = () => {
 
             {/* nav top section menu */}
             <div className=' d-lg-flex justify-content-lg-between justify-content-center my-2'>
-                {/* 
-                <form className="d-flex" role="search">
-                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button className="btn btn-outline-success" type="submit">Search</button>
-                </form> */}
-
                 <form class="d-flex">
                     <div class="input-group input-group-sm mb-3">
                         <input type="text" class="form-control" placeholder='Search...' aria-describedby="inputGroup-sizing-sm" />
