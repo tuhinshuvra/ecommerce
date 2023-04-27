@@ -1,10 +1,14 @@
+.navbg {
+    background-color: rgb(204, 204, 238);
+}
+
 .navBottomMenu {
     display: flex !important;
     justify-content: space-between !important;
 }
 
 .shopLogo {
-    width: 200px;
+    width: 330px;
 }
 
 .shopCart {

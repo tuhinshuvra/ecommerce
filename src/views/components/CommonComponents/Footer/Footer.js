@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BsTwitter, BsYoutube } from 'react-icons/bs';
 import { FaFacebookF } from 'react-icons/fa';
-import FooterLogo from "../../../../assets/logo/payments_all_logo.png";
+import FooterLogo from "../../../../assets/logo/logo.PNG";
 import GooglePlayStore from "../../../../assets/apps_store/google_play_store.png";
 import AppleStore from "../../../../assets/apps_store/apple_store.png";
 import "./Footer.css";
@@ -15,8 +15,8 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-12 col-lg-4  d-flex  flex-column justify-content-center align-items-center">
                             <div className='d-flex justify-content-center'>
-                                {/* <Link to="/"> <img className='footer_logo' src={FooterLogo} alt="" /></Link> */}
-                                <h2 className=" text-info">  Easy Shop</h2>
+                                <Link to="/"> <img className='footer_logo' src={FooterLogo} alt="" /></Link>
+                                {/* <h2 className=" text-info">  Easy Shop</h2> */}
                             </div>
                             <p className="text-center fw-bold">Shop here easily for your favorites jewelry items</p>
                         </div>

@@ -1,5 +1,7 @@
+import ProductLayout from "../layout/ProductLayout";
 import HomeContactSection from "../views/components/HomeComponents/HomeContactSection/HomeContactSection";
-import HomeJewlerySection from "../views/components/HomeComponents/HomeJewlerySection/HomeJewlerySection";
+import CategoryProducts from "../views/components/HomeComponents/HomeProductSection/CategoryProducts/CategoryProducts";
+import HomeProductSection from "../views/components/HomeComponents/HomeProductSection/HomeProductSection";
 import HomeServiceSection from "../views/components/HomeComponents/HomeServiceSection/HomeServiceSection";
 import Account from "../views/pages/Account/Account";
 import Login from "../views/pages/Authentication/Login/Login";
@@ -29,8 +31,8 @@ const router = createBrowserRouter([
                 element: <Login></Login>
             },
             {
-                path: "/jewllery",
-                element: <HomeJewlerySection></HomeJewlerySection>
+                path: "/products",
+                element: <HomeProductSection></HomeProductSection>
             },
             {
                 path: "/services",
@@ -56,7 +58,28 @@ const router = createBrowserRouter([
                 path: "/contact",
                 element: <HomeContactSection></HomeContactSection>
             },
+            {
+                path: "/category/:categoryId",
+                element: <CategoryProducts></CategoryProducts>,
+            },
         ]
+    },
+    {
+        path: "/catetory",
+        element: <ProductLayout></ProductLayout>,
+        children: [
+            {
+                path: "/catetory",
+                element: <HomeProductSection></HomeProductSection>,
+                // loader: async ({ params }) => await fetch(`${"../fake_api/category_list.json"}/category/${params.categoryId}`)
+            },
+            // {
+            //     path: "/jobs/:categoryId",
+            //     element: <FindJobsByCategory></FindJobsByCategory>,
+            //     loader: async ({ params }) => await fetch(`${process.env.REACT_APP_CABD_server_address}/jobbycategory?category=${params.categoryId}`),
+            // },
+        ]
+
     }
 ]);
 export default router;
