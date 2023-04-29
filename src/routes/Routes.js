@@ -1,7 +1,7 @@
 import ProductLayout from "../layout/ProductLayout";
+import HomeCategorySection from "../views/components/HomeComponents/HomeCategoryAndProductSection/HomeCategorySection/HomeCategorySection";
+import HomeProductsSection from "../views/components/HomeComponents/HomeCategoryAndProductSection/HomeProductSection/HomeProductsSection";
 import HomeContactSection from "../views/components/HomeComponents/HomeContactSection/HomeContactSection";
-import CategoryProducts from "../views/components/HomeComponents/HomeProductSection/CategoryProducts/CategoryProducts";
-import HomeProductSection from "../views/components/HomeComponents/HomeProductSection/HomeProductSection";
 import HomeServiceSection from "../views/components/HomeComponents/HomeServiceSection/HomeServiceSection";
 import Account from "../views/pages/Account/Account";
 import Login from "../views/pages/Authentication/Login/Login";
@@ -31,10 +31,6 @@ const router = createBrowserRouter([
                 element: <Login></Login>
             },
             {
-                path: "/products",
-                element: <HomeProductSection></HomeProductSection>
-            },
-            {
                 path: "/services",
                 element: <HomeServiceSection></HomeServiceSection>
             },
@@ -59,27 +55,17 @@ const router = createBrowserRouter([
                 element: <HomeContactSection></HomeContactSection>
             },
             {
-                path: "/category/:categoryId",
-                element: <CategoryProducts></CategoryProducts>,
+                path: "/products",
+                element: <HomeCategorySection></HomeCategorySection>
             },
-        ]
-    },
-    {
-        path: "/catetory",
-        element: <ProductLayout></ProductLayout>,
-        children: [
-            {
-                path: "/catetory",
-                element: <HomeProductSection></HomeProductSection>,
-                // loader: async ({ params }) => await fetch(`${"../fake_api/category_list.json"}/category/${params.categoryId}`)
-            },
-            // {
-            //     path: "/jobs/:categoryId",
-            //     element: <FindJobsByCategory></FindJobsByCategory>,
-            //     loader: async ({ params }) => await fetch(`${process.env.REACT_APP_CABD_server_address}/jobbycategory?category=${params.categoryId}`),
-            // },
-        ]
 
+            {
+                path: "/category/:categoryId",
+                element: <HomeProductsSection></HomeProductsSection>,
+            },
+
+
+        ]
     }
 ]);
 export default router;

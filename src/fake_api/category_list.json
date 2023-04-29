@@ -1,50 +1,50 @@
 [
     {
         "id": "1",
-        "category": "Wedding Brands"
+        "name": "Wedding Brands"
     },
     {
         "id": "2",
-        "category": "Engagement rings"
+        "name": "Engagement rings"
     },
     {
         "id": "3",
-        "category": "Earrings"
+        "name": "Earrings"
     },
     {
         "id": "4",
-        "category": "Earrings"
+        "name": "Earrings"
     },
     {
         "id": "5",
-        "category": "Category Five"
+        "name": "Category Five"
     },
     {
         "id": "6",
-        "category": "Category Six"
+        "name": "Category Six"
     },
     {
         "id": "7",
-        "category": "Category Seven"
+        "name": "Category Seven"
     },
     {
         "id": "8",
-        "category": "Category Eight"
+        "name": "Category Eight"
     },
     {
         "id": "9",
-        "category": "Category Nine"
+        "name": "Category Nine"
     },
     {
         "id": "10",
-        "category": "Category Ten"
+        "name": "Category Ten"
     },
     {
         "id": "11",
-        "category": "Category eleven"
+        "name": "Category eleven"
     },
     {
         "id": "12",
-        "category": "Category Twwelve"
+        "name": "Category Twwelve"
     }
 ]
