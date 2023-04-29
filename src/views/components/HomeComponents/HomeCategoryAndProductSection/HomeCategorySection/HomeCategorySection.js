@@ -1,57 +1,44 @@
 import React, { useContext, useEffect, useState } from 'react';
-import './HomeCategorySection.css';
 import { ProductContext } from '../../../contextProvider/ContextProvider';
 import Loader from '../../../Shared/Loader/Loader';
 import HomeCategoryDisplaySection from './HomeCategoryDisplaySection';
 import HomeProductsSection from '../HomeProductSection/HomeProductsSection';
+import { GiBigDiamondRing } from 'react-icons/gi';
 import { Outlet } from 'react-router-dom';
+import ProductList from '../../../../../fake_api/ProductList';
+import Buttons from '../HomeProductSection/Buttons';
+import ProductDisplay from '../HomeProductSection/ProductDisplay';
+import './HomeCategorySection.css';
 
 const HomeCategorySection = () => {
-    const { loading, setLoading } = useContext(ProductContext);
+    const newProductDisplay = ProductList.slice(0, 10);
+    const [item, setItem] = useState(newProductDisplay);
 
-    const [categories, setCategories] = useState([]);
-    const [categoryProduct, setCategoryProduct] = useState([]);
+    const menuItems = [...new Set(ProductList.map((Val) => Val.category))];
 
-    // const sliceCategories = categories.slice(0, 16);
-
-    if (loading) {
-        <Loader></Loader>
-    }
-
-    useEffect(() => {
-        fetch("../../../../fake_api/category_list.json")
-            .then(res => res.json())
-            .then(data => {
-                // console.log("All Category : ", data)
-                setCategories(data);
-                setLoading(false);
-            })
-    }, [setLoading])
-
-    useEffect(() => {
-        fetch("../../../../fake_api/product_list.json")
-            .then(response => response.json())
-            .then(data => {
-                // console.log("All Products:", data)
-                setCategoryProduct(data);
-                setLoading(false);
-            })
-    }, [setLoading])
+    const filterItem = (curcat) => {
+        const newItem = ProductList.filter((newVal) => {
+            return newVal.category === curcat;
+        });
+        setItem(newItem);
+    };
 
     return (
-        <div className='productbg'>
-            <div className='col-10 mx-auto my-4'>
-
-
-                {categories.map((category) => (
-                    <HomeCategoryDisplaySection
-                        key={category.id}
-                        category={category}
-                    ></HomeCategoryDisplaySection>
-                ))}
-
-
-
+        <div className='productArea'>
+            <div className='col-10 mx-auto py-4'>
+                <div className="row ">
+                    <div className=' col-lg-2'>
+                        <p className="fw-bold "><GiBigDiamondRing className="diamondRing mx-0"></GiBigDiamondRing> ITEM CATEGORIES</p>
+                        <Buttons
+                            filterItem={filterItem}
+                            setItem={setItem}
+                            menuItems={menuItems}
+                        />
+                    </div>
+                    <div className=' col-lg-10'>
+                        <ProductDisplay item={item} />
+                    </div>
+                </div>
             </div>
         </div>
     );

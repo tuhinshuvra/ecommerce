@@ -1,7 +1,7 @@
 import React from 'react';
-import SpecialityOne from '../../../../assets/heroCarousol/sliderOne.png'
-import SpecialityTwo from '../../../../assets/heroCarousol/sliderTwo.png'
-import SpecialityThree from '../../../../assets/heroCarousol/sliderThree.png'
+import SpecialityOne from '../../../../assets/cardOne/imageOne.png'
+import SpecialityTwo from '../../../../assets/cardOne/ImageTwo.png'
+import SpecialityThree from '../../../../assets/cardOne/ImageThree.png'
 import './HomeSpecialitySection.css'
 
 const HomeSpecialitySection = () => {
