@@ -6,9 +6,9 @@ import './HomeOfferSection.css';
 
 const HomeOfferSection = () => {
     return (
-        <div className=' offerbg'>
+        <div className='offerbg pb-md-4'>
             <div className=' col-10 mx-auto'>
-                <div className=' d-flex'>
+                <div className='offerCard'>
                     <div className=' col-md-4'>
                         <img className='specialityImage img-fluid' src={SpecialityOne} alt="" />
                     </div>

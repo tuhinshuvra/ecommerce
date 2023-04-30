@@ -8,7 +8,7 @@ import './HomeServiceSection.css';
 
 const HomeServiceSection = () => {
     return (
-        <div className='opertionBg'>
+        <div className='servicesArea'>
             <div className='col-10 mx-auto'>
                 <div className='row'>
 

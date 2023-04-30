@@ -1,5 +1,24 @@
 .navbg {
-    background-color: rgb(204, 204, 238);
+    /* background-color: rgb(204, 204, 238); */
+    background-color: white;
+    color: #FA292E;
+}
+
+.nabBtn {
+    color: #B11226;
+    text-decoration: none;
+}
+
+.cartCheck {
+    color: #B11226;
+}
+
+
+.nabBtn:hover {
+    /* color: #c41619; */
+    border-bottom: 3px solid #c41619;
+    /* padding: 5px; */
+    /* border-radius: 5px; */
 }
 
 .navBottomMenu {
@@ -8,7 +27,7 @@
 }
 
 .shopLogo {
-    width: 330px;
+    width: 300px;
 }
 
 .shopCart {

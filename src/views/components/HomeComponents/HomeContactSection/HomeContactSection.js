@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './HomeContactSection.css';
 
 const HomeContactSection = () => {
     return (
-        <div className="contact_bg col-lg-12 px-4 py-5" style={{ backgroundColor: '#E5F7E5' }}>
+        <div className="contactArea col-lg-12 px-4 py-5" >
             <div className="row align-items-center g-lg-5 py-lg-5 col-lg-10 mx-auto p-sm-0">
 
                 <div className="col-lg-5 text-center text-lg-start gbl_animate_left my-auto  ">

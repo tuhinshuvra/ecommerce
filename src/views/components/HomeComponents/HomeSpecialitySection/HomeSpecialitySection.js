@@ -6,8 +6,8 @@ import './HomeSpecialitySection.css'
 
 const HomeSpecialitySection = () => {
     return (
-        <div className='specialitybg'>
-            <div className=' col-10 mx-auto'>
+        <div className='specialityArea pb-md-4'>
+            <div className=' col-10 mx-auto dataArea'>
                 <div className=' d-flex'>
                     <div className=' col-lg-4 justify-content-center align-items-center px-lg-3 py-lg-5'>
                         <h5>WELCOME TO</h5>
@@ -17,7 +17,7 @@ const HomeSpecialitySection = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  magnam unde in. Quo doloremque maiores dolor tempore, voluptatum pariatur sit rem officiis sint vitae perferendis omnis dicta consequuntur!</p>
                     </div>
                 </div>
-                <div className=' d-flex'>
+                <div className='offerCard'>
                     <div className=' col-md-4'>
                         <img className='specialityImage img-fluid' src={SpecialityOne} alt="" />
                     </div>

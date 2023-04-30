@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsTwitter, BsYoutube } from 'react-icons/bs';
+import { BsTwitter, BsYoutube, BsMessenger } from 'react-icons/bs';
 import { FaFacebookF } from 'react-icons/fa';
 import FooterLogo from "../../../../assets/logo/logo.PNG";
 import GooglePlayStore from "../../../../assets/apps_store/google_play_store.png";
 import AppleStore from "../../../../assets/apps_store/apple_store.png";
+import Messeenger from '../../../../assets/messenger.png';
 import "./Footer.css";
 
 const Footer = () => {
