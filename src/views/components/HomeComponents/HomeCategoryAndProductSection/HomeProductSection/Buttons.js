@@ -5,8 +5,7 @@ import './Buttons.css';
 
 const Buttons = ({ filterItem, setItem, menuItems }) => {
     return (
-        <div className="  ">
-
+        <div>
             {menuItems.map((Val, id) => {
                 return (
                     <div>
@@ -24,7 +23,6 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
             })}
             <button
                 className="category_btn text-uppercase"
-                // id=" "
                 onClick={() => setItem(ProductList)}
             >
                 <div className=" d-flex">

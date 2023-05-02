@@ -10,7 +10,7 @@ const HomeContactSection = () => {
                 <div className="col-lg-5 text-center text-lg-start gbl_animate_left my-auto  ">
                     <div className="">
                         <h1 className="text-3xl font-bold mb-2 gbl_animate_bottom">Get in Touch!</h1>
-                        <h5 className=' mb-2'><b>Easy Shop LTD.</b></h5>
+                        <h5 className=' mb-2'><b>Palash Jewelers Shop LTD.</b></h5>
                         <p className=' mb-0'><b>Corporate Office:</b></p>
                         <p className=' mb-0'>MAG House, House No-20, Shah Makhdum</p>
                         <p>Avenue, Uttara Sector -11, Dhaka-1230</p>

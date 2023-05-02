@@ -1,5 +1,5 @@
 import React from 'react';
-import OperationImage from '../../../../assets/paymentsAllOperation.png';
+import ServiceImage from '../../../../assets/PngItem_2476274.png';
 import { FaAnchor } from 'react-icons/fa';
 import { BsFillHddStackFill, BsHandThumbsUpFill } from 'react-icons/bs';
 import { GiConvergenceTarget } from 'react-icons/gi';
@@ -14,12 +14,12 @@ const HomeServiceSection = () => {
 
                     {/* operation  image section */}
                     <div className=' col-lg-6 d-flex justify-content-center align-items-center animate_left'>
-                        <img className='opertionImage  d-none d-md-block' src={OperationImage} alt="" />
+                        <img className='opertionImage  d-none d-md-block' src={ServiceImage} alt="" />
                     </div>
 
                     {/* operation text section */}
                     <div className='col-lg-6 animate_right'>
-                        <h1 className='paymentsAllTitle mt-lg-0 my-sm-4 mt-0 text-center text-lg-start'>The Easiest Way to Operate and Use by You</h1>
+                        <h1 className='paymentsAllTitle mt-lg-0 my-sm-4 mt-0 text-center text-lg-start'>Our Services for You</h1>
                         {/* <p className='securityRightSubTitle my-4 text-center text-md-start '>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p> */}
 
 

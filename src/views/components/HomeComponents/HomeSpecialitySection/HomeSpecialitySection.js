@@ -8,26 +8,26 @@ const HomeSpecialitySection = () => {
     return (
         <div className='specialityArea pb-md-4'>
             <div className=' col-10 mx-auto dataArea'>
-                <div className=' d-flex'>
-                    <div className=' col-lg-4 justify-content-center align-items-center px-lg-3 py-lg-5'>
-                        <h5>WELCOME TO</h5>
-                        <h2>ONLINE SHOP</h2>
+                <div className=' d-lg-flex text-center text-lg-start'>
+                    <div className=' col-lg-4 col-12  my-4 my-lg-0    px-lg-3 py-lg-5'>
+                        <h5 className='mb-0 mb-lg-1'>WELCOME TO</h5>
+                        <h2 className='fw-bold mt-0 mt-lg-1'>Palash Jewelers</h2>
                     </div>
-                    <div className=' col-lg-8 px-lg-3 py-lg-5'>
+                    <div className=' col-lg-8 col-12 px-lg-3 py-lg-5 '>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  magnam unde in. Quo doloremque maiores dolor tempore, voluptatum pariatur sit rem officiis sint vitae perferendis omnis dicta consequuntur!</p>
                     </div>
                 </div>
                 <div className='offerCard'>
-                    <div className=' col-md-4'>
-                        <img className='specialityImage img-fluid' src={SpecialityOne} alt="" />
+                    <div className=' col-md-4 col-12'>
+                        <img className='specialityImage img-fluid roundedOne' src={SpecialityOne} alt="" />
                     </div>
 
-                    <div className=' col-md-4'>
-                        <img className='specialityImage img-fluid' src={SpecialityTwo} alt="" />
+                    <div className=' col-md-4 col-12'>
+                        <img className='specialityImage img-fluid roundedTwo my-1 my-md-0' src={SpecialityTwo} alt="" />
                     </div>
 
-                    <div className=' col-md-4'>
-                        <img className='specialityImage img-fluid' src={SpecialityThree} alt="" />
+                    <div className=' col-md-4 col-12'>
+                        <img className='specialityImage img-fluid roundedThree' src={SpecialityThree} alt="" />
                     </div>
                 </div>
             </div>

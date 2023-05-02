@@ -10,15 +10,16 @@ const HomeOfferSection = () => {
             <div className=' col-10 mx-auto'>
                 <div className='offerCard'>
                     <div className=' col-md-4'>
-                        <img className='specialityImage img-fluid' src={SpecialityOne} alt="" />
+                        <img className='specialityImage img-fluid roundedOne' src={SpecialityOne} alt="" />
                     </div>
 
                     <div className=' col-md-4'>
-                        <img className='specialityImage img-fluid' src={SpecialityTwo} alt="" />
+                        {/* <img className='specialityImage img-fluid' src={SpecialityTwo} alt="" /> */}
+                        <img className='specialityImage img-fluid roundedTwo my-1 my-md-0' src={SpecialityTwo} alt="" />
                     </div>
 
                     <div className=' col-md-4'>
-                        <img className='specialityImage img-fluid' src={SpecialityThree} alt="" />
+                        <img className='specialityImage img-fluid roundedThree' src={SpecialityThree} alt="" />
                     </div>
                 </div>
             </div>

@@ -22,15 +22,15 @@ const HomeCategorySection = () => {
         <div className='productArea'>
             <div className='col-10 mx-auto py-4'>
                 <div className="row ">
-                    <div className=' col-lg-2'>
-                        <p className="fw-bold "><GiBigDiamondRing className="diamondRing mx-0"></GiBigDiamondRing> ITEM CATEGORIES</p>
+                    <div className=' col-lg-2 col-md-4 col-12'>
+                        <p className="buttonsTitle"><GiBigDiamondRing className="diamondRing mx-0"></GiBigDiamondRing> ITEM CATEGORIES</p>
                         <Buttons
                             filterItem={filterItem}
                             setItem={setItems}
                             menuItems={menuItems}
                         />
                     </div>
-                    <div className=' col-lg-10 mt-4'>
+                    <div className=' col-lg-10 col-md-8 col-12 productDisplayArea'>
                         <ProductDisplay items={items} />
                     </div>
                 </div>

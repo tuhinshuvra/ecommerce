@@ -6,6 +6,9 @@ import HomeServiceSection from "../views/components/HomeComponents/HomeServiceSe
 import Account from "../views/pages/Account/Account";
 import Login from "../views/pages/Authentication/Login/Login";
 import Signup from "../views/pages/Authentication/SignUP/Signup";
+import Cart from "../views/pages/Cart/Cart";
+import Chat from "../views/pages/Chat/Chat";
+import CheckOut from "../views/pages/CheckOut/CheckOut";
 import WishList from "../views/pages/WishList/WishList";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -45,6 +48,18 @@ const router = createBrowserRouter([
             {
                 path: "/account",
                 element: <Account></Account>
+            },
+            {
+                path: "/checkout",
+                element: <CheckOut></CheckOut>
+            },
+            {
+                path: "/cart",
+                element: <Cart></Cart>
+            },
+            {
+                path: "/chat",
+                element: <Chat></Chat>
             },
             {
                 path: "/wishList",

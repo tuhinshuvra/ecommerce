@@ -4,22 +4,22 @@
     color: #FA292E;
 }
 
-.nabBtn {
-    color: #B11226;
+.navBtn {
+    /* color: #B11226; */
     text-decoration: none;
+    border-bottom: 3px solid white;
 }
 
-.cartCheck {
-    color: #B11226;
-}
-
-
-.nabBtn:hover {
+.navBtn:hover {
     /* color: #c41619; */
     border-bottom: 3px solid #c41619;
     /* padding: 5px; */
     /* border-radius: 5px; */
 }
+
+/* .cartCheck {
+    color: #B11226;
+} */
 
 .navBottomMenu {
     display: flex !important;
@@ -31,6 +31,6 @@
 }
 
 .shopCart {
-    width: 32px;
-    height: 32px;
+    width: 21px;
+    height: 21px;
 }

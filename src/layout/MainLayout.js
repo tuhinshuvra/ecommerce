@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../views/components/CommonComponents/Header/Navbar';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import Footer from '../views/components/CommonComponents/Footer/Footer';
 import Messeenger from '../assets/messenger.png';
 import './MainLayout.css'
@@ -12,7 +12,7 @@ const MainLayout = () => {
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
-            <img className="messgengerIcon" src={Messeenger} alt="" />
+            <Link to="/chat"> <img className="messgengerIcon" src={Messeenger} alt="" /></Link>
         </div>
     );
 };
