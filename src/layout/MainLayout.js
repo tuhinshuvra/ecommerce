@@ -1,18 +1,19 @@
 import React from 'react';
 import Navbar from '../views/components/CommonComponents/Header/Navbar';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Footer from '../views/components/CommonComponents/Footer/Footer';
-import Messeenger from '../assets/messenger.png';
-import './MainLayout.css'
+import Chat from '../views/components/Chat/Chat';
 
 
 const MainLayout = () => {
+
     return (
-        <div className=' container'>
+        <div className='container'>
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
-            <Link to="/chat"> <img className="messgengerIcon" src={Messeenger} alt="" /></Link>
+
+            <Chat></Chat>
         </div>
     );
 };
