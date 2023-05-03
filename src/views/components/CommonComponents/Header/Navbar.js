@@ -33,34 +33,29 @@ const Navbar = () => {
                     <div className=' d-md-flex justify-content-between d-lg-inline '>
                         <div className=' d-flex justify-content-between align-items-center'>
 
-                            <Link to="/" className="navBtn text-primary d-flex justify-content-center align-items-center " aria-current="page" href="#">
+                            <Link to="/" className="navBtnTop text-primary d-flex justify-content-center align-items-center " aria-current="page" href="#">
                                 <AiOutlineHome className=''></AiOutlineHome>Home
                             </Link>
 
-                            <Link to="/account" className=" navBtn text-primary d-flex justify-content-center align-items-center mx-3" href="#">
+                            <Link to="/account" className=" navBtnTop text-primary d-flex justify-content-center align-items-center mx-3" href="#">
                                 <BiUser></BiUser>My Account
                             </Link>
 
-                            <Link to="/wishList" className=" navBtn text-primary d-flex justify-content-center align-items-center">
+                            <Link to="/wishList" className=" navBtnTop text-primary d-flex justify-content-center align-items-center">
                                 <AiOutlineHeart></AiOutlineHeart>Wish List
                             </Link>
 
                         </div>
 
-                        <div className=' d-flex justify-content-end my-2'>
+                        <div className=' d-flex justify-content-lg-end justify-content-center my-2'>
                             <div className='navBtn text-primary d-flex'>
                                 <AiOutlineShoppingCart className='shopCart '></AiOutlineShoppingCart>
-                                <Link to="/cart" className=" fw-bold   text-decoration-none cartCheck">CART</Link>
+                                <Link to="/cart" className="fw-bold text-decoration-none cartCheck">CART</Link>
                             </div>
                             <div className='navBtn text-primary mx-3 d-flex'>
                                 <HiShoppingBag className='shopCart'></HiShoppingBag>
                                 <Link to="/checkout" className=" fw-bold   text-decoration-none cartCheck">CHECK OUT</Link>
                             </div>
-
-                            {/* <div className='navBtn text-primary d-flex justify-content-center align-items-center'>
-                                <BsBagCheck className=''></BsBagCheck>
-                                <Link className=" fw-bold   text-decoration-none cartCheck">CHECK OUT</Link>
-                            </div> */}
                         </div>
 
                     </div>
@@ -70,8 +65,8 @@ const Navbar = () => {
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container">
 
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
+                        <button className="navbar-toggler navbarTogglerCustom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon "></span>
                         </button>
 
                         {/* nav bottom section menu */}
@@ -80,23 +75,23 @@ const Navbar = () => {
 
                             <ul className="navbar-nav  mb-2 mb-lg-0 fw-bold">
                                 <li className="nav-item">
-                                    <Link to="/" className=" me-3  navBtn text-primary" aria-current="page" href="#">Home</Link>
+                                    <Link to="/" className="collapsBtn navBtn text-primary" aria-current="page" href="#">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/products" className=" mx-lg-3  navBtn text-primary" href="#">Products</Link>
+                                    <Link to="/products" className="collapsBtn mx-lg-3  navBtn text-primary" href="#">Products</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/services" className="mx-lg-3  navBtn text-primary" href="#">Services</Link>
+                                    <Link to="/services" className="collapsBtn mx-lg-3  navBtn text-primary" href="#">Services</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/about" className=" mx-lg-3  navBtn text-primary" href="#">About</Link>
+                                    <Link to="/about" className="collapsBtn mx-lg-3  navBtn text-primary" href="#">About</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/contact" className="  navBtn text-primary" href="#">Contact</Link>
+                                    <Link to="/contact" className="collapsBtn  navBtn text-primary" href="#">Contact</Link>
                                 </li>
                             </ul>
 
-                            <span className='text-primary border-0 fw-bold ms-auto fs-6'>Call : 0124323424</span>
+                            <span className='collapsBtn text-primary border-0 fw-bold fs-6 ms-lg-auto d-none d-lg-block'>Call : 0124323424</span>
 
                         </div>
                     </div>

@@ -1,8 +1,7 @@
 import React from 'react';
 import ServiceImage from '../../../../assets/PngItem_2476274.png';
-import { FaAnchor } from 'react-icons/fa';
-import { BsFillHddStackFill, BsHandThumbsUpFill } from 'react-icons/bs';
-import { GiConvergenceTarget } from 'react-icons/gi';
+import { MdRecycling } from 'react-icons/md';
+import { GiConvergenceTarget, GiAutoRepair, GiJewelCrown, GiDiscussion } from 'react-icons/gi';
 
 import './HomeServiceSection.css';
 
@@ -19,34 +18,34 @@ const HomeServiceSection = () => {
 
                     {/* operation text section */}
                     <div className='col-lg-6 animate_right'>
-                        <h1 className='paymentsAllTitle mt-lg-0 my-sm-4 mt-0 text-center text-lg-start'>Our Services for You</h1>
+                        <h1 className='paymentsAllTitle mt-lg-0 my-sm-4 mt-0 text-center text-lg-start'>Our Services</h1>
                         {/* <p className='securityRightSubTitle my-4 text-center text-md-start '>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p> */}
 
 
                         {/* operation segments */}
                         <div className=' row text-center text-md-start'>
                             <div className=' col-md-6'>
-                                <FaAnchor className='operationIcon'></FaAnchor>
-                                <p className='fw-bold'>Integration</p>
-                                <p className=' col-md-10'>Easy to register, user-friendly app interface, fast money transfer, lightweight. One-stop solution to all financial needs.</p>
+                                <GiAutoRepair className='operationIcon'></GiAutoRepair>
+                                <p className='fw-bold'>Repair / Restoration</p>
+                                <p className=' col-md-10'>We can repair, resize, and restore your jewelry to its original condition. We are also able to enhance and tailor the look of your jewelry to your liking.</p>
                             </div>
 
                             <div className=' col-md-6'>
-                                <BsFillHddStackFill className='operationIcon'></BsFillHddStackFill>
-                                <p className='fw-bold'>Analysis</p>
-                                <p className=' col-md-10'>Fastest payment, every transaction has a printable document, the easiest transaction with QR code scan and more useful features.</p>
+                                <GiJewelCrown className='operationIcon'></GiJewelCrown>
+                                <p className='fw-bold'>Custom Design</p>
+                                <p className=' col-md-10'>Looking for something unique; personal? Our artisan jewelers can help you design your very own customized jewelry; make your dream pieces tangible.</p>
                             </div>
 
                             <div className=' col-md-6'>
-                                <BsHandThumbsUpFill className='operationIcon'></BsHandThumbsUpFill>
-                                <p className='fw-bold'>Solutions</p>
-                                <p className=' col-md-10'>This gives the solutions to many problems like salary payment and travel cards. By using this app anyone can easily travel to any country.</p>
+                                <GiDiscussion className='operationIcon'></GiDiscussion>
+                                <p className='fw-bold'>Consulting</p>
+                                <p className=' col-md-10'>Here at Popular, we don't just sell jewelry. We help our clients select fine jewelry pieces that best fits their style and budget. Whether you're rewarding yourself, purchasing a gift for that special someone, or celebrating a special events.</p>
                             </div>
 
                             <div className=' col-md-6'>
-                                <GiConvergenceTarget className='operationIcon'></GiConvergenceTarget>
-                                <p className='fw-bold'>Support</p>
-                                <p className=' col-md-10'> We provide 24.7 customer support to ensure the best service experience and solve transaction issues as soon as possible.</p>
+                                <MdRecycling className='operationIcon'></MdRecycling>
+                                <p className='fw-bold'>Recycling & Scrap</p>
+                                <p className=' col-md-10'>Have some unwanted jewelry lying around the house collecting dust? We provide quotes for diamond, gold, and platinum. For your scrap gold, you can receive cash or store credit, with which you may allot towards a new purchase.</p>
                             </div>
 
 

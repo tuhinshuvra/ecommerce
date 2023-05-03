@@ -14,7 +14,7 @@ const HomeSpecialitySection = () => {
                         <h2 className='fw-bold mt-0 mt-lg-1'>Palash Jewelers</h2>
                     </div>
                     <div className=' col-lg-8 col-12 px-lg-3 py-lg-5 '>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  magnam unde in. Quo doloremque maiores dolor tempore, voluptatum pariatur sit rem officiis sint vitae perferendis omnis dicta consequuntur!</p>
+                        <p>Palash Jewelers has striven to produce the highest quality fine jewelry; to provide the best service and customer experience. We wish to exceed our client's expectations each and every time we serve them.  Our clients are all classes of people.</p>
                     </div>
                 </div>
                 <div className='offerCard'>

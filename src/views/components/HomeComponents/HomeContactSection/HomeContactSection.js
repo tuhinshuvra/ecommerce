@@ -10,18 +10,17 @@ const HomeContactSection = () => {
                 <div className="col-lg-5 text-center text-lg-start gbl_animate_left my-auto  ">
                     <div className="">
                         <h1 className="text-3xl font-bold mb-2 gbl_animate_bottom">Get in Touch!</h1>
-                        <h5 className=' mb-2'><b>Palash Jewelers Shop LTD.</b></h5>
-                        <p className=' mb-0'><b>Corporate Office:</b></p>
-                        <p className=' mb-0'>MAG House, House No-20, Shah Makhdum</p>
-                        <p>Avenue, Uttara Sector -11, Dhaka-1230</p>
+                        <h5 className=' mb-2'><b>Palash Jewelers LTD.</b></h5>
+                        <p className=' mb-0'><b>Address:</b> 133, 177 KDA,  </p>
+                        <p>New Market Rd, Khulna-9100</p>
                         <p className=' mb-0'><b>Website:</b>
-                            <Link className=' text-decoration-none' to="/"> www.gbl-bd.com</Link>
+                            <Link className=' text-decoration-none' to="/"> www.palashjewelers.com</Link>
                         </p>
-                        <p className=' mb-0'><b>Email:</b> info@gbl-bd.com</p>
+                        <p className=' mb-0'><b>Email:</b> palashjewellers.official@gmail.com</p>
                         <p className=' mb-0'><b>Facebook:</b>
-                            <a className=' text-decoration-none' href="https://www.facebook.com/GorgeousBangladeshLtd" target="_blank" rel="noreferrer"> Gorgeous Bangladesh Ltd</a> <br />
+                            <a className=' text-decoration-none' href="https://www.facebook.com/palashjewellersbd/" target="_blank" rel="noreferrer"> Palash Jewelers</a> <br />
                         </p>
-                        <p className=' mb-lg-0 mb-sm-3'><b>Phone:</b> +8802 224470053, +8802 224470056</p>
+                        <p className=' mb-lg-0 mb-sm-3'><b>Phone:</b> +8801711-011166</p>
                     </div>
                 </div>
 
