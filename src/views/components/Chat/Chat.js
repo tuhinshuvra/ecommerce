@@ -59,7 +59,7 @@ const Chat = () => {
                                 <Link className='  fs-5 fw-bold text-center text-decoration-none btn btn-secondary w-100 btn-lg text-white fw-bold my-2'>Continew as Guest</Link>
                             </div>
 
-                            <p className=' text-center small'>By continuing as a guest, you agree to Meta's <Link className=' text-info text-decoration-none'> Terms, Privacy </Link> Policy and <Link className=' text-info text-decoration-none'>Cookies</Link> Policy.</p>
+                            <p className=' text-center small'>By continuing as a guest, you agree to Meta's <Link to="/termsAndConditions" className=' text-info text-decoration-none'> Terms, Privacy </Link> Policy and <Link to="/cookiesPolicy" className=' text-info text-decoration-none'>Cookies</Link> Policy.</p>
                         </div>
                     }
 
