@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsTrash } from 'react-icons/bs';
-import DiamondRing from '../../../assets/products/240776793_4433601550038067_1847271808648224784_n.png'
+import DiamondRing from '../../../assets/products/jeweleryProduct_06.png'
 import './Cart.css';
 
 const Cart = () => {
     return (
         <div className='col-10 mx-auto'>
             <div className="row">
-                <div className='col-9 my-4'>
+                <div className='col-lg-9 my-4'>
                     <div className='d-flex justify-content-between'>
                         <h5 className='fw-bold text-uppercase'>SHOPPING CART(5 ITEMS)</h5>
                         <p className='fw-bold text-uppercase'>DELIVERY CHARGE INFO</p>
@@ -93,7 +93,7 @@ const Cart = () => {
                     </div>
                 </div>
 
-                <div className=' col-3 mt-4'>
+                <div className=' col-lg-3 mt-4'>
                     <p className=" fw-bold">ORDER SUMMARY</p>
                     <hr />
                     <p className="d-flex justify-content-between fw-bold"><span> Cart Sub Total:</span> <span>	৳389000</span></p>

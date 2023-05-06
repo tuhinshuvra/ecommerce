@@ -4,6 +4,7 @@ import ProductList from '../../../../../fake_api/ProductList';
 import Buttons from '../HomeProductSection/Buttons';
 import ProductDisplay from '../HomeProductSection/ProductDisplay';
 import './HomeCategorySection.css';
+import ButtonsOverProducts from '../HomeProductSection/ButtonsOverProducts';
 
 const HomeCategorySection = () => {
     const newProductDisplay = ProductList.slice(0, 8);
@@ -32,6 +33,13 @@ const HomeCategorySection = () => {
                         />
                     </div>
                     <div className='col-lg-10 col-md-8 col-12 productDisplayArea'>
+                        {/* <div className='buttonOverProduct col-lg-2 col-md-4 col-12'>
+                            <ButtonsOverProducts
+                                filterItem={filterItem}
+                                setItem={setItems}
+                                menuItems={menuItems}
+                            />
+                        </div> */}
                         <ProductDisplay items={items} />
                     </div>
                 </div>

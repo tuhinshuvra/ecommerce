@@ -92,7 +92,7 @@ const Navbar = () => {
                                 </li>
                             </ul>
 
-                            <span className='collapsBtn text-primary border-0 fw-bold fs-6 ms-lg-auto d-none d-lg-block'><BsTelephoneFill className=''></BsTelephoneFill>  0124323424</span>
+                            <span className='collapsBtn text-primary border-0 fw-bold fs-6 ms-lg-auto d-none d-lg-block'><BsTelephoneFill className=''></BsTelephoneFill>  8801711-011166</span>
 
                         </div>
                     </div>
