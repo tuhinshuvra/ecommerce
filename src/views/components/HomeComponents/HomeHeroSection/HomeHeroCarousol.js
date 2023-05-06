@@ -1,6 +1,6 @@
 import React from 'react';
-import SliderOne from '../../../../assets/heroCarousol/sliderOne.png';
-import SliderTwo from '../../../../assets/heroCarousol/sliderTwo.png';
+import SliderOne from '../../../../assets/heroCarousol/sliderTwo.png';
+import SliderTwo from '../../../../assets/heroCarousol/sliderOne.png';
 import SliderThree from '../../../../assets/heroCarousol/sliderThree.png';
 import './HomeHeroCarousol.css';
 

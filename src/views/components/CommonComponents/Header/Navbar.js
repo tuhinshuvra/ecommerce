@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
+import { BsTelephoneFill } from 'react-icons/bs';
 import { HiShoppingBag } from 'react-icons/hi';
 import { BiUser } from 'react-icons/bi';
 import { AiOutlineShoppingCart, AiOutlineHome, AiOutlineHeart } from 'react-icons/ai';
@@ -91,7 +92,7 @@ const Navbar = () => {
                                 </li>
                             </ul>
 
-                            <span className='collapsBtn text-primary border-0 fw-bold fs-6 ms-lg-auto d-none d-lg-block'>Call : 0124323424</span>
+                            <span className='collapsBtn text-primary border-0 fw-bold fs-6 ms-lg-auto d-none d-lg-block'><BsTelephoneFill className=''></BsTelephoneFill>  0124323424</span>
 
                         </div>
                     </div>

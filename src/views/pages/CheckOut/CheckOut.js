@@ -4,13 +4,13 @@ import './CheckOut.css';
 const CheckOut = () => {
     return (
         <div className=' col-10 mx-auto my-4'>
-            <p className=' d-flex justify-content-between'><span> 1. QUICK CHECKOUT FOR  <b> 01518916266</b></span> <span> EDIT</span></p>
+            <p className='fw-bold d-flex justify-content-between'><span> 1. QUICK CHECKOUT FOR  <b className=' text-info'> 01518916266</b></span> <span> EDIT</span></p>
             <p className=' fw-bold'>  2. BILLING & SHIPPING INFORMATION (Call ******* from 9 am to 9 pm if you have any difficulties saving your address).</p>
-            <form className=' my-3'>
-                <p className=' fw-bold'>SHIPPING ADDRESS</p>
+            <form className=' my-3  bg-light p-3 rounded-3'>
+                <p className=' fw-bold text-center'>SHIPPING ADDRESS</p>
                 <div className='row'>
                     <div className=' col-6'>
-                        <input class="form-control" type="text" placeholder="Mohammad Harun" aria-label="default input example" />
+                        <input class="form-control" type="text" placeholder="Full Name" aria-label="default input example" />
                     </div>
                     <div className=' col-6'>
                         <input class="form-control" type="text" placeholder="Address" aria-label="default input example" />
@@ -19,13 +19,13 @@ const CheckOut = () => {
                         <input class="form-control my-1" type="text" placeholder="Loyalty Code" aria-label="default input example" />
                     </div>
                     <div className=' col-6'>
-                        <input class="form-control my-1" type="text" placeholder="Khulna" aria-label="default input example" />
+                        <input class="form-control my-1" type="text" placeholder="Your City" aria-label="default input example" />
                     </div>
                     <div className=' col-6'>
-                        <input class="form-control" type="text" placeholder="Default input" aria-label="default input example" />
+                        <input class="form-control" type="email" placeholder="Email Id" aria-label="default input example" />
                     </div>
                     <div className=' col-6'>
-                        <input class="form-control" type="text" placeholder="01423423455" aria-label="default input example" />
+                        <input class="form-control" type="text" placeholder="Phone Number" aria-label="default input example" />
                     </div>
                 </div>
 

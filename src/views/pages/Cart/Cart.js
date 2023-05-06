@@ -29,9 +29,9 @@ const Cart = () => {
                                 <tr>
                                     <th scope="row">1</th>
                                     <td className=' d-flex flex-column'>
-                                        <Link to="/" className=' text-decoration-none'> <img className='productImg' src={DiamondRing} alt="product_Image" /></Link>
-                                        <Link to="/" className=' text-decoration-none'>Diamond Gold</Link>
-                                        <Link to="/" className=' text-decoration-none'>Show Details</Link>
+                                        <Link to="/" className=' text-decoration-none'> <img className='cartProductImg' src={DiamondRing} alt="product_Image" /></Link>
+                                        <Link to="/" className=' text-decoration-none productName'>Diamond Gold</Link>
+                                        <Link to="/" className=' text-decoration-none showDetails'>Show Details</Link>
                                     </td>
                                     <td className='my-auto'>৳45000</td>
                                     <td>1</td>
@@ -42,9 +42,9 @@ const Cart = () => {
                                 <tr className=''>
                                     <th scope="row">2</th>
                                     <td className=' d-flex flex-column'>
-                                        <Link to="/" className=' text-decoration-none'> <img className='productImg' src={DiamondRing} alt="product_Image" /></Link>
-                                        <Link to="/" className=' text-decoration-none'>Diamond Gold</Link>
-                                        <Link to="/" className=' text-decoration-none'>Show Details</Link>
+                                        <Link to="/" className=' text-decoration-none'> <img className='cartProductImg' src={DiamondRing} alt="product_Image" /></Link>
+                                        <Link to="/" className=' text-decoration-none productName'>Diamond Gold</Link>
+                                        <Link to="/" className=' text-decoration-none showDetails'>Show Details</Link>
                                     </td>
                                     <td className='my-auto'>৳45000</td>
                                     <td>1</td>
@@ -54,9 +54,9 @@ const Cart = () => {
                                 <tr>
                                     <th scope="row">3</th>
                                     <td className=' d-flex flex-column'>
-                                        <Link to="/" className=' text-decoration-none'> <img className='productImg' src={DiamondRing} alt="product_Image" /></Link>
-                                        <Link to="/" className=' text-decoration-none'>Diamond Gold</Link>
-                                        <Link to="/" className=' text-decoration-none'>Show Details</Link>
+                                        <Link to="/" className=' text-decoration-none'> <img className='cartProductImg' src={DiamondRing} alt="product_Image" /></Link>
+                                        <Link to="/" className=' text-decoration-none productName'>Diamond Gold</Link>
+                                        <Link to="/" className=' text-decoration-none showDetails'>Show Details</Link>
                                     </td>
                                     <td className='my-auto'>৳45000</td>
                                     <td>1</td>
@@ -66,9 +66,9 @@ const Cart = () => {
                                 <tr>
                                     <th scope="row">4</th>
                                     <td className=' d-flex flex-column'>
-                                        <Link to="/" className=' text-decoration-none'> <img className='productImg' src={DiamondRing} alt="product_Image" /></Link>
-                                        <Link to="/" className=' text-decoration-none'>Diamond Gold</Link>
-                                        <Link to="/" className=' text-decoration-none'>Show Details</Link>
+                                        <Link to="/" className=' text-decoration-none'> <img className='cartProductImg' src={DiamondRing} alt="product_Image" /></Link>
+                                        <Link to="/" className=' text-decoration-none productName'>Diamond Gold</Link>
+                                        <Link to="/" className=' text-decoration-none showDetails'>Show Details</Link>
                                     </td>
                                     <td className='my-auto'>৳45000</td>
                                     <td>1</td>
@@ -78,9 +78,9 @@ const Cart = () => {
                                 <tr>
                                     <th scope="row">5</th>
                                     <td className=' d-flex flex-column'>
-                                        <Link to="/" className=' text-decoration-none'> <img className='productImg' src={DiamondRing} alt="product_Image" /></Link>
-                                        <Link to="/" className=' text-decoration-none'>Diamond Gold</Link>
-                                        <Link to="/" className=' text-decoration-none'>Show Details</Link>
+                                        <Link to="/" className=' text-decoration-none'> <img className='cartProductImg' src={DiamondRing} alt="product_Image" /></Link>
+                                        <Link to="/" className=' text-decoration-none productName'>Diamond Gold</Link>
+                                        <Link to="/" className=' text-decoration-none showDetails'>Show Details</Link>
                                     </td>
                                     <td className='my-auto'>৳45000</td>
                                     <td>1</td>

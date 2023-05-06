@@ -2,12 +2,12 @@ import HomeCategorySection from "../views/components/HomeComponents/HomeCategory
 import HomeProductsSection from "../views/components/HomeComponents/HomeCategoryAndProductSection/HomeProductSection/HomeProductsSection";
 import HomeContactSection from "../views/components/HomeComponents/HomeContactSection/HomeContactSection";
 import HomeServiceSection from "../views/components/HomeComponents/HomeServiceSection/HomeServiceSection";
-import Account from "../views/pages/Account/Account";
 import Login from "../views/pages/Authentication/Login/Login";
 import Signup from "../views/pages/Authentication/SignUP/Signup";
 import Cart from "../views/pages/Cart/Cart";
 import CheckOut from "../views/pages/CheckOut/CheckOut";
 import CookiesPolicy from "../views/pages/CookiesPolicy/CookiesPolicy";
+import Profile from "../views/pages/Profile/Profile";
 import TermsAndConditions from "../views/pages/TermsAndConditions/TermsAndConditions";
 import WishList from "../views/pages/WishList/WishList";
 
@@ -45,9 +45,10 @@ const router = createBrowserRouter([
                 path: "/contact",
                 element: <HomeContactSection></HomeContactSection>
             },
+
             {
                 path: "/account",
-                element: <Account></Account>
+                element: <Profile></Profile>
             },
             {
                 path: "/checkout",
@@ -57,10 +58,7 @@ const router = createBrowserRouter([
                 path: "/cart",
                 element: <Cart></Cart>
             },
-            // {
-            //     path: "/chat",
-            //     element: <Chat></Chat>
-            // },
+
             {
                 path: "/wishList",
                 element: <WishList></WishList>
