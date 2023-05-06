@@ -4,8 +4,8 @@ import './CheckOut.css';
 const CheckOut = () => {
     return (
         <div className=' col-10 mx-auto my-4'>
-            <p className='fw-bold d-flex justify-content-between'><span> 1. QUICK CHECKOUT FOR  <b className=' text-info'> 01518916266</b></span> <span> EDIT</span></p>
-            <p className=' fw-bold'>  2. BILLING & SHIPPING INFORMATION (Call ******* from 9 am to 9 pm if you have any difficulties saving your address).</p>
+            <p className='fw-bold d-flex justify-content-between'><span> 1. QUICK CHECKOUT FOR  <b className=' text-info'> 8801711-011166</b></span> <span> EDIT</span></p>
+            <p className=' fw-bold'>  2. BILLING & SHIPPING INFORMATION (Call 8801711-011166 from 9 am to 9 pm if you have any difficulties saving your address).</p>
             <form className=' my-3  bg-light p-3 rounded-3'>
                 <p className=' fw-bold text-center'>SHIPPING ADDRESS</p>
                 <div className='row'>

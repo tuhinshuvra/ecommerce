@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
-import { BsTelephoneFill } from 'react-icons/bs';
+import { BsTelephoneFill, BsHandbag } from 'react-icons/bs';
 import { HiShoppingBag } from 'react-icons/hi';
 import { BiUser } from 'react-icons/bi';
 import { AiOutlineShoppingCart, AiOutlineHome, AiOutlineHeart } from 'react-icons/ai';
@@ -22,9 +22,9 @@ const Navbar = () => {
                         </Link>
 
                         <form className="d-flex flex-column my-4" >
-                            <div className="input-group input-group-sm">
-                                <input type="text" className="form-control" placeholder='Search...' aria-describedby=" " />
-                                <button type="button" className="btn btn-secondary btn-sm"><FaSearch></FaSearch> </button>
+                            <div className="input-group   ">
+                                <input type="text" className="form-control searchArea" placeholder='Search...' aria-describedby=" " />
+                                <button type="button" className="btn btn-primary"><FaSearch className=''></FaSearch> </button>
                             </div>
                             {/* <span /> */}
                         </form>
@@ -35,27 +35,27 @@ const Navbar = () => {
                         <div className=' d-flex justify-content-between align-items-center'>
 
                             <Link to="/" className="navBtnTop text-primary d-flex justify-content-center align-items-center " aria-current="page" href="#">
-                                <AiOutlineHome className=''></AiOutlineHome>Home
+                                <AiOutlineHome className=''></AiOutlineHome> <span className='ms-1'> Home</span>
                             </Link>
 
                             <Link to="/account" className=" navBtnTop text-primary d-flex justify-content-center align-items-center mx-3" href="#">
-                                <BiUser></BiUser>My Account
+                                <BiUser></BiUser> <span className='ms-1'> My Account</span>
                             </Link>
 
                             <Link to="/wishList" className=" navBtnTop text-primary d-flex justify-content-center align-items-center">
-                                <AiOutlineHeart></AiOutlineHeart>Wish List
+                                <AiOutlineHeart></AiOutlineHeart><span className='ms-1'> Wish List</span>
                             </Link>
 
                         </div>
 
                         <div className=' d-flex justify-content-lg-end justify-content-center my-2'>
-                            <div className='navBtn text-primary d-flex'>
-                                <AiOutlineShoppingCart className='shopCart '></AiOutlineShoppingCart>
-                                <Link to="/cart" className="fw-bold text-decoration-none cartCheck">CART</Link>
+                            <div className='navBtn text-primary d-flex justify-content-center align-items-center'>
+                                <AiOutlineShoppingCart className=' '></AiOutlineShoppingCart>
+                                <Link to="/cart" className=" text-decoration-none ms-1 ">Cart</Link>
                             </div>
-                            <div className='navBtn text-primary mx-3 d-flex'>
-                                <HiShoppingBag className='shopCart'></HiShoppingBag>
-                                <Link to="/checkout" className=" fw-bold   text-decoration-none cartCheck">CHECK OUT</Link>
+                            <div className='navBtn text-primary mx-3 d-flex justify-content-center align-items-center'>
+                                <BsHandbag className=''></BsHandbag>
+                                <Link to="/checkout" className="text-decoration-none ms-1">Check Out</Link>
                             </div>
                         </div>
 
